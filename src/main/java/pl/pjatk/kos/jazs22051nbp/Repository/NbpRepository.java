@@ -13,10 +13,10 @@ import java.time.LocalDate;
 
 
 @Repository
-public class NbpRepository extends JpaRepository<WalutaResponse, Long> {
+public interface NbpRepository extends JpaRepository<WalutaResponse, Long> {
 
     @Modifying
-    @Query()
+    @Query(value = "INSERT into WalutaResponse (id, average, currency, fromDate, toDate, createdAt) VALUES (:average, :currency, :fromDate, :toDate, :createAt)", nativeQuery = true)
     WalutaResponse save(@Param("average") BigDecimal avg, @Param("currency") String currency, @Param("fromDate") LocalDate from, @Param("toDate") LocalDate to, @Param("createAt")Instant createAt);
 
 }
