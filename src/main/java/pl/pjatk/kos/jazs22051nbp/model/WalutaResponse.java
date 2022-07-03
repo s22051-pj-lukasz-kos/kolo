@@ -70,6 +70,13 @@ public class WalutaResponse {
     public WalutaResponse() {
     }
 
+    public WalutaResponse(BigDecimal avg, String currency, LocalDate fromDate, LocalDate toDate) {
+        this.avg = avg;
+        this.currency = currency;
+        this.fromDate = fromDate;
+        this.toDate = toDate;
+    }
+
     public WalutaResponse(Long id, BigDecimal avg, String currency, LocalDate fromDate, LocalDate toDate, LocalDateTime create) {
         this.id = id;
         this.avg = avg;
