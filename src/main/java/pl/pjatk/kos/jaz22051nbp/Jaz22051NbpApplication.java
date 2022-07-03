@@ -1,13 +1,13 @@
-package pl.pjatk.kos.jazs22051nbp;
+package pl.pjatk.kos.jaz22051nbp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JazS22051NbpApplication {
+public class Jaz22051NbpApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JazS22051NbpApplication.class, args);
+        SpringApplication.run(Jaz22051NbpApplication.class, args);
     }
 
 }

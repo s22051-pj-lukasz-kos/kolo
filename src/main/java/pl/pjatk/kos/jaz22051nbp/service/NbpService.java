@@ -1,12 +1,12 @@
-package pl.pjatk.kos.jazs22051nbp.service;
+package pl.pjatk.kos.jaz22051nbp.service;
 
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import pl.pjatk.kos.jazs22051nbp.Repository.NbpRepository;
-import pl.pjatk.kos.jazs22051nbp.model.NbpResponse;
-import pl.pjatk.kos.jazs22051nbp.model.Waluta;
-import pl.pjatk.kos.jazs22051nbp.model.WalutaResponse;
+import pl.pjatk.kos.jaz22051nbp.Repository.NbpRepository;
+import pl.pjatk.kos.jaz22051nbp.model.NbpResponse;
+import pl.pjatk.kos.jaz22051nbp.model.Waluta;
+import pl.pjatk.kos.jaz22051nbp.model.WalutaResponse;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

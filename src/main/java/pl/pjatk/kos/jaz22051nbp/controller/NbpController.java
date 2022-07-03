@@ -1,4 +1,4 @@
-package pl.pjatk.kos.jazs22051nbp.controller;
+package pl.pjatk.kos.jaz22051nbp.controller;
 
 
 import org.springframework.http.ResponseEntity;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import pl.pjatk.kos.jazs22051nbp.model.WalutaResponse;
-import pl.pjatk.kos.jazs22051nbp.service.NbpService;
+import pl.pjatk.kos.jaz22051nbp.model.WalutaResponse;
+import pl.pjatk.kos.jaz22051nbp.service.NbpService;
 
 @RestController("/home")
 public class NbpController {
@@ -19,7 +19,7 @@ public class NbpController {
     }
 
     @GetMapping("/{waluta}")
-    public ResponseEntity<WalutaResponse> getWaluta(@PathVariable String waluta, @RequestParam(value = "last", defaultValue = "1") int ostatni) {
-        return ResponseEntity.ok(nbpService.getWaluta(waluta, ostatni));
+    public ResponseEntity<WalutaResponse> getWaluta(@PathVariable String waluta, @RequestParam(value = "last", defaultValue = "1") int last) {
+        return ResponseEntity.ok(nbpService.getWaluta(waluta, last));
     }
 }

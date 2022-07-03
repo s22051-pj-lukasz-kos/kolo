@@ -1,11 +1,11 @@
-package pl.pjatk.kos.jazs22051nbp.Repository;
+package pl.pjatk.kos.jaz22051nbp.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import pl.pjatk.kos.jazs22051nbp.model.WalutaResponse;
+import pl.pjatk.kos.jaz22051nbp.model.WalutaResponse;
 
 import java.math.BigDecimal;
 import java.time.Instant;

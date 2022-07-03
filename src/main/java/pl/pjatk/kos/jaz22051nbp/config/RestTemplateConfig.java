@@ -1,4 +1,4 @@
-package pl.pjatk.kos.jazs22051nbp.config;
+package pl.pjatk.kos.jaz22051nbp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

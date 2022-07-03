@@ -1,4 +1,4 @@
-package pl.pjatk.kos.jazs22051nbp.model;
+package pl.pjatk.kos.jaz22051nbp.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

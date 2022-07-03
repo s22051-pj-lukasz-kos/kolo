@@ -9,12 +9,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.pjatk.kos</groupId>
-    <artifactId>jaz-s22051-nbp</artifactId>
+    <artifactId>jaz-22051-nbp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jaz-s22051-nbp</name>
+    <name>jaz-22051-nbp</name>
     <description>kolokwium</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
