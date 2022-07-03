@@ -8,13 +8,13 @@
         <version>2.7.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>pl.pjatk.kos.jaz</groupId>
-    <artifactId>kolokwium</artifactId>
+    <groupId>pl.pjatk.kos</groupId>
+    <artifactId>jaz-s22051-nbp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kolokwium</name>
+    <name>jaz-s22051-nbp</name>
     <description>kolokwium</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>

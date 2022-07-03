@@ -1,10 +1,10 @@
-package pl.pjatk.kos.jaz.kolokwium;
+package pl.pjatk.kos.jazs22051nbp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KolokwiumApplicationTests {
+class JazS22051NbpApplicationTests {
 
     @Test
     void contextLoads() {
