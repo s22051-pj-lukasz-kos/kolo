@@ -38,6 +38,5 @@ public class NbpService {
         nbpRepository.save(response);
 
         return response;
-
     }
 }
