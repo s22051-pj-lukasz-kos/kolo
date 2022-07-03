@@ -1,6 +1,4 @@
 package pl.pjatk.kos.jaz22051nbp.service;
-
-
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import pl.pjatk.kos.jaz22051nbp.Repository.NbpRepository;
